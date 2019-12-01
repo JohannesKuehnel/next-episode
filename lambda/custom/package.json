@@ -1,6 +1,6 @@
 {
   "name": "alexa-next-episode",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Next Episode is an Amazon Alexa Skill to get release dates for your favourite TV series.",
   "main": "index.js",
   "scripts": {
