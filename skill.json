@@ -1,0 +1,132 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Next Episode",
+          "summary": "Tells you when a new episode of a TV series is aired.",
+          "description": "Want to know when your favorite TV show airs next?\n\nJust ask Next Episode about your show and never miss a new episode!",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a2c73604661544758dde38aee5b4c697/APP_ICON?versionId=7sGJZijaro1aVaknHQWfnKN7DJCTwoYN&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7960fcd4280ef9d6da70e13ed87b75edf84054eb3ae111be4e6c561336b99ab3",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b3a6c1624a42487d90c94130c9c68a31/APP_ICON_LARGE?versionId=vxK.Pdc8ij7AbZ1klV2hZowORg4n7lL3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=786f588fdface008b529e4cc8c8c2357bd8c2ceab850d9d108d10207cc341533",
+          "examplePhrases": [
+            "Alexa, ask Next Episode for Game of Thrones",
+            "Alexa, ask Next Episode when's the next episode of New Girl",
+            "Alexa, ask Next Episode about The Big Bang Theory"
+          ],
+          "keywords": ["tv", "series", "episode", "next"]
+        },
+        "en-GB": {
+          "name": "Next Episode",
+          "summary": "Tells you when a new episode of a TV series is aired.",
+          "description": "Want to know when your favorite TV show airs next?\n\nJust ask Next Episode about your show and never miss a new episode!",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a2c73604661544758dde38aee5b4c697/APP_ICON?versionId=7sGJZijaro1aVaknHQWfnKN7DJCTwoYN&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7960fcd4280ef9d6da70e13ed87b75edf84054eb3ae111be4e6c561336b99ab3",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b3a6c1624a42487d90c94130c9c68a31/APP_ICON_LARGE?versionId=vxK.Pdc8ij7AbZ1klV2hZowORg4n7lL3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=786f588fdface008b529e4cc8c8c2357bd8c2ceab850d9d108d10207cc341533",
+          "examplePhrases": [
+            "Alexa, ask Next Episode for Game of Thrones",
+            "Alexa, ask Next Episode when's the next episode of New Girl",
+            "Alexa, ask Next Episode about The Big Bang Theory"
+          ],
+          "keywords": ["tv", "series", "episode", "next"]
+        },
+        "en-CA": {
+          "name": "Next Episode",
+          "summary": "Tells you when a new episode of a TV series is aired.",
+          "description": "Want to know when your favorite TV show airs next?\n\nJust ask Next Episode about your show and never miss a new episode!",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a2c73604661544758dde38aee5b4c697/APP_ICON?versionId=7sGJZijaro1aVaknHQWfnKN7DJCTwoYN&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7960fcd4280ef9d6da70e13ed87b75edf84054eb3ae111be4e6c561336b99ab3",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b3a6c1624a42487d90c94130c9c68a31/APP_ICON_LARGE?versionId=vxK.Pdc8ij7AbZ1klV2hZowORg4n7lL3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=786f588fdface008b529e4cc8c8c2357bd8c2ceab850d9d108d10207cc341533",
+          "examplePhrases": [
+            "Alexa, ask Next Episode for Game of Thrones",
+            "Alexa, ask Next Episode when's the next episode of New Girl",
+            "Alexa, ask Next Episode about The Big Bang Theory"
+          ],
+          "keywords": ["tv", "series", "episode", "next"]
+        },
+        "en-IN": {
+          "name": "Next Episode",
+          "summary": "Tells you when a new episode of a TV series is aired.",
+          "description": "Want to know when your favorite TV show airs next?\n\nJust ask Next Episode about your show and never miss a new episode!",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a2c73604661544758dde38aee5b4c697/APP_ICON?versionId=7sGJZijaro1aVaknHQWfnKN7DJCTwoYN&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7960fcd4280ef9d6da70e13ed87b75edf84054eb3ae111be4e6c561336b99ab3",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b3a6c1624a42487d90c94130c9c68a31/APP_ICON_LARGE?versionId=vxK.Pdc8ij7AbZ1klV2hZowORg4n7lL3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=786f588fdface008b529e4cc8c8c2357bd8c2ceab850d9d108d10207cc341533",
+          "examplePhrases": [
+            "Alexa, ask Next Episode for Game of Thrones",
+            "Alexa, ask Next Episode when's the next episode of New Girl",
+            "Alexa, ask Next Episode about The Big Bang Theory"
+          ],
+          "keywords": ["tv", "series", "episode", "next"]
+        },
+        "en-AU": {
+          "name": "Next Episode",
+          "summary": "Tells you when a new episode of a TV series is aired.",
+          "description": "Want to know when your favorite TV show airs next?\n\nJust ask Next Episode about your show and never miss a new episode!",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a2c73604661544758dde38aee5b4c697/APP_ICON?versionId=7sGJZijaro1aVaknHQWfnKN7DJCTwoYN&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7960fcd4280ef9d6da70e13ed87b75edf84054eb3ae111be4e6c561336b99ab3",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b3a6c1624a42487d90c94130c9c68a31/APP_ICON_LARGE?versionId=vxK.Pdc8ij7AbZ1klV2hZowORg4n7lL3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=786f588fdface008b529e4cc8c8c2357bd8c2ceab850d9d108d10207cc341533",
+          "examplePhrases": [
+            "Alexa, ask Next Episode for Game of Thrones",
+            "Alexa, ask Next Episode when's the next episode of New Girl",
+            "Alexa, ask Next Episode about The Big Bang Theory"
+          ],
+          "keywords": ["tv", "series", "episode", "next"]
+        },
+        "de-DE": {
+          "name": "Next Episode",
+          "summary": "Frage Next Episode einfach wann die nächste Episode deiner Lieblingsserie läuft.",
+          "description": "Du willst wissen, wann die nächste Folge deiner Lieblingsserie ausgestrahlt wird?\n\nFrage einfach Next Episode wann sie läuft und bleib am Laufenden!",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a2c73604661544758dde38aee5b4c697/APP_ICON?versionId=7sGJZijaro1aVaknHQWfnKN7DJCTwoYN&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7960fcd4280ef9d6da70e13ed87b75edf84054eb3ae111be4e6c561336b99ab3",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b3a6c1624a42487d90c94130c9c68a31/APP_ICON_LARGE?versionId=vxK.Pdc8ij7AbZ1klV2hZowORg4n7lL3&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191130T165236Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86399&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191130%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=786f588fdface008b529e4cc8c8c2357bd8c2ceab850d9d108d10207cc341533",
+          "examplePhrases": [
+            "Alexa frage Next Episode nach Game of Thrones",
+            "Alexa frage Next Episode wann die nächste Folge von New Girl läuft",
+            "Alexa frage Next Episode nach nächster Folge von The Big Bang Theory"
+          ],
+          "keywords": ["tv", "serien", "fernsehen", "folge", "programm"]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "1) Say 'Alexa, ask Next Episode for Game of Thrones'",
+      "category": "MOVIE_SHOWTIMES",
+      "distributionCountries": []
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "en-GB": {
+          "privacyPolicyUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md",
+          "termsOfUseUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md"
+        },
+        "en-US": {
+          "privacyPolicyUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md",
+          "termsOfUseUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md"
+        },
+        "en-CA": {
+          "privacyPolicyUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md",
+          "termsOfUseUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md"
+        },
+        "en-AU": {
+          "privacyPolicyUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md",
+          "termsOfUseUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md"
+        },
+        "en-IN": {
+          "privacyPolicyUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md",
+          "termsOfUseUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md"
+        },
+        "de-DE": {
+          "privacyPolicyUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md",
+          "termsOfUseUrl": "https://github.com/JohannesKuehnel/next-episode/blob/master/README.md"
+        }
+      }
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "alexa-skill-next-episode"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

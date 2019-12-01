@@ -1,0 +1,1256 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "next episode",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [
+                        {
+                            "name": "Series",
+                            "type": "TVSeries"
+                        }
+                    ],
+                    "samples": [
+                        "when comes the next episode of {Series}",
+                        "when airs {Series}",
+                        "{Series}",
+                        "for {Series}",
+                        "for episode of {Series}",
+                        "about {Series}",
+                        "When's the next episode of {Series}",
+                        "next episode of {Series}",
+                        "{Series} next episode"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "TVSeries",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Under the Dome"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Person of Interest"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bitten"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arrow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "True Detective"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The 100"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Homeland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Glee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Revenge"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Grimm"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gotham"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lost Girl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Flash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Continuum"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Constantine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Penny Dreadful"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Amazing Race"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Supernatural"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Strain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Last Ship"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "True Blood"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Once Upon a Time in Wonderland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hawaii Five-0"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hellsing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hellsing Ultimate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Berserk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Californication"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vikings"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "American Horror Story"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Marvel's Agents of S.H.I.E.L.D."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fargo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hemlock Grove"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Helix"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Killing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Intruders"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Z Nation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Resurrection"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Death Note"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Last Man Standing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sleepy Hollow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Outlander"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Scorpion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NCIS: New Orleans"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Forever"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Witches of East End"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Madam Secretary"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brooklyn Nine-Nine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Lottery"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Knick"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "How to Get Away with Murder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nashville"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Legends"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Red Band Society"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chicago P.D."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "black-ish"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "New Girl"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chicago Fire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NCIS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Orphan Black"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Originals"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Vampire Diaries"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Utopia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bones"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Big Bang Theory"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Grey's Anatomy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Castle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Blacklist"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Voice"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dancing with the Stars"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NCIS: Los Angeles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Walking Dead"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hell on Wheels"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Mindy Project"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sons of Anarchy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Middle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Mysteries of Laura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Goldbergs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Modern Family"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Criminal Minds"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Game of Thrones"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Simpsons"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Family Guy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stalker"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Bridge"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Reign"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Unforgettable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Haven"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bad Judge"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "A to Z"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Parenthood"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Defiance"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Falling Skies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Manhattan Love Story"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Biggest Loser"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Scandal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "America's Next Top Model"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Blue Bloods"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Good Wife"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Boardwalk Empire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Law & Order: Special Victims Unit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dominion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "From Dusk Till Dawn: The Series"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Justified"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bob's Burgers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mulaney"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CSI: Crime Scene Investigation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Gracepoint"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Once Upon a Time"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "South Park"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Survivor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "King of the Hill"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Mentalist"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Star Wars Rebels"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "House"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Transparent"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nikita"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Lost"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2 Broke Girls"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Selfie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mom"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Affair"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Jane the Virgin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Marry Me"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Two and a Half Men"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "About a Boy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Millers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Elementary"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Heroes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The McCarthys"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cristela"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Leftovers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Girls"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Looking"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Getting On"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Veep"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Silicon Valley"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Comeback"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "House of Lies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Episodes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nurse Jackie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Web Therapy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Masters of Sex"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shameless"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Newsroom"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ray Donovan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Utopia"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sanctuary"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Beauty and the Beast"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Twin Peaks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Americans"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Fringe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "State of Affairs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Weeds"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dexter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carnivàle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Human Target"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Banshee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bionic Woman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Battlestar Galactica"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "24"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Chuck"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Breaking Bad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Orange Is the New Black"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "How I Met Your Mother"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Suits"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Parks and Recreation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "House of Cards"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Teen Wolf"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pretty Little Liars"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Legend of Korra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Wire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Firefly"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Extant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Black Sails"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tyrant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BoJack Horseman"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Salem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Turn: Washington's Spies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Intelligence"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Believe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Star-Crossed"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crisis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Halt and Catch Fire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hello Ladies"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dads"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hannibal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bates Motel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Following"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Da Vinci's Demons"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Fosters"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mistresses"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Tomorrow People"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Devious Maids"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Almost Human"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Carrie Diaries"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stargate SG-1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Graceland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stargate Atlantis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Stargate Universe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Chair"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Survivor's Remorse"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Doctor Who"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "666 Park Avenue"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alcatraz"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Gates"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Kingdom"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "American Dad!"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rick and Morty"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hostages"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Being Human"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Alphas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Crossing Lines"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rectify"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Happyland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Twisted"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ravenswood"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Crazy Ones"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Mob City"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Last Resort"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Neighbors"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Go On"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Vegas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The River"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Awake"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Missing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The New Normal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GCB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Revolution"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Dallas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anger Management"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cops"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Benched"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Great Fire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Conan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Strange Empire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Town of the Living Dead"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Long Shadow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Colbert Report"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Transporter: The Series"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "The Daily Show with Jon Stewart"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
